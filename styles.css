@@ -30,7 +30,7 @@ body {
 .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .resume {
@@ -277,6 +277,7 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    margin-top: 23px;
 }
 
 .additional-info__languages-item {
@@ -292,4 +293,9 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
     margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.education__front-end {
+    margin-top: 23px;
 }
