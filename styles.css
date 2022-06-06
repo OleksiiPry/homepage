@@ -12,7 +12,7 @@ body {
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #fff200;
+    --text-decoration-color: #ff9a00;
 }
 
 .container {
@@ -207,29 +207,35 @@ body {
     margin-bottom: 10px;
 }
 
-.experiences__about-myself-paragraph {
-    color: var(--secondary-text-color);
-    text-align: justify;
-    text-indent: 2rem;
-}
-
 .experiences__about-myself-list {
-    color: var(--secondary-text-color);
-    padding-left: 20px;
     margin-bottom: 20px;
 }
 
-.experiences__first-programming-list {
+.experiences__list {
     color: var(--secondary-text-color);
     padding-left: 20px;
 }
 
-.experiences__first-programming-footer {
+.experiences__paragraph {
     color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__first-programming-paragraph {
+    margin-bottom: 0;
+}
+
+.experiences__paragraph:first-child {
+    margin-bottom: 0;
 }
 
 .additional-info {
     flex: 1 1 40%;
+}
+
+.additional-info__paragraph {
+    color: var(--secondary-text-color);
 }
 
 .additional-info__education {
@@ -275,6 +281,11 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__travel-list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
 }
 
 .additional-info__travel-header {
